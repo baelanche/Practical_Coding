@@ -42,28 +42,28 @@ stderr : 2>
 ```{.bash}
 echo "201923678" 1> id
 ```
-id 파일로 201923678이 출력됨<br/>
+id 파일로 201923678이 출력됨<br/><br/>
 ```bash
 ./a.out 0< id 1> out.txt 2> err.txt
 ```
-id의 스트림을 입력, stdout은 out.txt, stderr은 err.txt로 출력됨<br/>
+id의 스트림을 입력, stdout은 out.txt, stderr은 err.txt로 출력됨<br/><br/>
 ```bash
 ./a.out < id > out.txt
 ```
-숫자는 일반적으로 생략한다<br/>
+숫자는 일반적으로 생략한다<br/><br/>
 ```bash
 ./a.out < id &> out.txt
 ```
-stdout, stderr 한번에 저장 가능<br/>
+stdout, stderr 한번에 저장 가능<br/><br/>
 ```bash
 cat out.txt err.txt > sum
 ```
-out.txt +(concatenate) err.txt = sum<br/>
+out.txt +(concatenate) err.txt = sum<br/><br/>
 ```bash
 1>> out.txt ./a.out
 ...input...
 ```
-log 형태로 계속 쌓음<br/>
+log 형태로 계속 쌓음<br/><br/>
 ```bash
 ./a.out 2> /dev/null
 ```
