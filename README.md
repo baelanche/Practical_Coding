@@ -7,5 +7,10 @@
 Baegyu Jung / 201923678
 
 ## [Lab01](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab01)
-
+* Linux Instruction
+* stdio
+* Hello World !
 ## [Lab02](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab02)
+* create git repository
+* stdio
+* buffer
