@@ -11,39 +11,35 @@
   git clone [https]
 
 ### instruction
-git init : 로컬 저장소로 설정
+* git init : 로컬 저장소로 설정
 
-git add . : 디렉토리 내 모든 파일 준비영역으로 이동
+* git add . : 디렉토리 내 모든 파일 준비영역으로 이동
 
-git commit -m "message" : 준비영역의 파일을 모두 로컬저장소로 이동
+* git commit -m "message" : 준비영역의 파일을 모두 로컬저장소로 이동
 
-git remote add origin [https] : 원격저장소와 연결
+* git remote add origin [https] : 원격저장소와 연결
 
-git remote -v : 원격저장소 링크 확인
+* git remote -v : 원격저장소 링크 확인
 
-git push (-u origin master) : 깃에 업로드
+* git push (-u origin master) : 깃에 업로드
 
-git reset HEAD^ : commit, add 취소
+* git reset HEAD^ : commit, add 취소
 
-<p>
-잘못 커밋한 원격저장소의 파일 삭제
+&nbsp;&nbsp;잘못 커밋한 원격저장소의 파일 삭제
 
-git rm --cached [파일 이름]
+&nbsp;&nbsp;git rm --cached [파일 이름]
 
-git rm -r --cached [하위 파일이 있는 폴더 이름]
+&nbsp;&nbsp;git rm -r --cached [하위 파일이 있는 폴더 이름]
 
-이후 커밋, 푸시 재진행
-</p>
+&nbsp;&nbsp;이후 커밋, 푸시 재진행
 
 ## stdio
-<p>
 stdin, stdout > /usr/include/stdio.h<br/>
 stdin : 0<<br/>
 stdout : 1><br/>
 stderr : 2>
-</p>
 ### example :
-```bash
+```{.bash}
 echo "201923678" 1> id
 ```
 id 파일로 201923678이 출력됨
