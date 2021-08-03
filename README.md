@@ -10,6 +10,7 @@ Baegyu Jung / 201923678
 * Linux Instruction
 * hello.c
 ## [Lab02](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab02)
-* create git repository
+* git
 * stdio
 * buffer
+* hello.c
