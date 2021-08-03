@@ -2,21 +2,10 @@
 
 실전코딩 2021 여름 학기
 
-## 이름
+## Info
 
-정배규, 201923678
+Baegyu Jung / 201923678
 
-## Lab00
+## [Lab01](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab01)
 
-### 터미널
-
-단말기의 개념에 대해서 배움
-
-* Terminal
-* 호스트 - 터미널 연결 상태
-
-
-### stdio
-
-* stdio.h 파일은 /usr/include 에 있음
-* stdin, stdout, stderr 등은 FILE *
+## [Lab02](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab02)
