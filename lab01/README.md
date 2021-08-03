@@ -1,6 +1,6 @@
 # Lab01
 * Linux Instruction
-* Hello World !
+* hello.c
 
 ## Linux Instruction
 
@@ -48,7 +48,7 @@
 * more [file] : 텍스트 파일의 내용을 페이징하여 확인 가능
 
 
-## Hello World !
+## hello.c
 ```c
 #include <stdio.h>
 int main()
