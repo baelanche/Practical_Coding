@@ -25,13 +25,13 @@
 
 * git reset HEAD^ : commit, add 취소
 
-&nbsp;&nbsp;잘못 커밋한 원격저장소의 파일 삭제
+  잘못 커밋한 원격저장소의 파일 삭제
 
-&nbsp;&nbsp;git rm --cached [파일 이름]
+  git rm --cached [파일 이름]
 
-&nbsp;&nbsp;git rm -r --cached [하위 파일이 있는 폴더 이름]
+  git rm -r --cached [하위 파일이 있는 폴더 이름]
 
-&nbsp;&nbsp;이후 커밋, 푸시 재진행
+  이후 커밋, 푸시 재진행
 
 ## stdio
 stdin, stdout > /usr/include/stdio.h<br/>
@@ -42,28 +42,28 @@ stderr : 2>
 ```{.bash}
 echo "201923678" 1> id
 ```
-id 파일로 201923678이 출력됨
+id 파일로 201923678이 출력됨<br/>
 ```bash
 ./a.out 0< id 1> out.txt 2> err.txt
 ```
-id의 스트림을 입력, stdout은 out.txt, stderr은 err.txt로 출력됨
+id의 스트림을 입력, stdout은 out.txt, stderr은 err.txt로 출력됨<br/>
 ```bash
 ./a.out < id > out.txt
 ```
-숫자는 일반적으로 생략한다
+숫자는 일반적으로 생략한다<br/>
 ```bash
 ./a.out < id &> out.txt
 ```
-stdout, stderr 한번에 저장 가능
+stdout, stderr 한번에 저장 가능<br/>
 ```bash
 cat out.txt err.txt > sum
 ```
-out.txt +(concatenate) err.txt = sum
+out.txt +(concatenate) err.txt = sum<br/>
 ```bash
 1>> out.txt ./a.out
 ...input...
 ```
-log 형태로 계속 쌓음
+log 형태로 계속 쌓음<br/>
 ```bash
 ./a.out 2> /dev/null
 ```
