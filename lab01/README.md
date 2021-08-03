@@ -1,4 +1,6 @@
 # Lab01
+* Linux Instruction
+* Hello World !
 
 ## Linux Instruction
 
@@ -44,3 +46,13 @@
 * uname : os 정보 확인
 * cat [file] : 텍스트 파일 확인
 * more [file] : 텍스트 파일의 내용을 페이징하여 확인 가능
+
+
+## Hello World !
+```c
+#include <stdio.h>
+int main()
+{
+    printf("Hello World : 201923678 Baegyu Jung\n");
+}
+```
