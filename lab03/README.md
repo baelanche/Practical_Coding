@@ -1,8 +1,5 @@
 # Lab03
-* git
-* stdio
-* buffer
-* hello.c
+* pipe
 
 ## git
 1. 웹 서버에 저장소 생성
@@ -94,6 +91,5 @@ int main()
         fscanf(stdin, "%d", &in_data);
         fprintf(stdout, "Hello stdout : %d Baegyu Jung\n", in_data);
         fprintf(stderr, "Hello stderr : %d Baegyu Jung\n", in_data);
-        }
-}
+
 ```
