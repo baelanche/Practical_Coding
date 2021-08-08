@@ -18,9 +18,15 @@
 * bg 로 실행하려면 명령어 끝에 & 문자 삽입
 ### instruction
   kill [PID]
+
   kill [%job index]
+
   fg terminate : ctrl + c
+
   bg terminate : kill [%job index]
+
   //중간 index의 job을 terminate 시켜도 뒷순서의 job 번호는 바뀌지 않음
+
   fg suspend : ctrl + z
+
   bg : suspend 된 작업을 bg 에서 run 시킴
