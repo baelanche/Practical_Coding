@@ -3,6 +3,7 @@
 * C compile and execution
 ## [permission](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab01#3-permission)
 * rwx를 x -> w -> r 순으로 1, 2, 4 로 치환하여 명령어를 적용 할 수 있음
+
   ex) chmod 774 [file] : rwxrwxr--
 ## C compile and execution
 * cpp : C Preprocessor (#define, #include, ...)
