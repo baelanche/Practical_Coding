@@ -19,6 +19,7 @@ Baegyu Jung / 201923678
 * jobs
 ## [Lab04](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab04)
 * CRLF
+* etc
 ## [Lab05](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab05)
 * permission
 * C compile and execution
