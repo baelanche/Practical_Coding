@@ -14,5 +14,11 @@ Baegyu Jung / 201923678
 * stdio
 * buffer
 * hello.c
-## [Lab03]
+## [Lab03](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab03)
 * pipe
+* job
+## [Lab04](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab04)
+* CRLF
+## [Lab05](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab05)
+* permission
+* C compile and execution
