@@ -16,7 +16,7 @@ Baegyu Jung / 201923678
 * hello.c
 ## [Lab03](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab03)
 * pipe
-* job
+* jobs
 ## [Lab04](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab04)
 * CRLF
 ## [Lab05](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab05)
