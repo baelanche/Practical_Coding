@@ -1,6 +1,5 @@
 # Lab01
 * Linux Instruction
-* hello.c
 
 ## Linux Instruction
 

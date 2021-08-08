@@ -2,7 +2,6 @@
 * git
 * stdio
 * buffer
-* hello.c
 
 ## git
 1. 웹 서버에 저장소 생성
