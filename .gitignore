@@ -1,6 +1,7 @@
 # tar
 *.tar
 
+# etc
 *_exam
 
 # Compiled Object files
