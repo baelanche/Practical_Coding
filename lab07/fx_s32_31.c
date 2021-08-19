@@ -1,38 +1,41 @@
-#include <math.h>
 #include <stdio.h>
 #include "fx_s32_31.h"
 
 #define FX_SYSTEM
 #define FX_S32_31 3231
-#define FX_QNUM 31 // Fractional parts
-#define sf_31 4294967296.0
+#define FX_QNUM 31 // the number of Fractional parts
+#define YY 2147483648.0L // 2^FP
 
 typedef long long fx_s32_31;
 typedef fx_s32_31 fixed;
 
-float toFloat(fixed a) {
-	return (float)(a / sf_31);
-} 
-
-// fx_s32_31 multiplication
-fixed fx_mul(fixed a, fixed b) {
-	float fa, fb, fc;
-	fa = toFloat(a);
-	fb = toFloat(b);
-	fc = fa * fb;
-	return int_to_fx(fc);
+fixed fromDouble(float a) {
+	return (fixed)(a * YY);
 }
 
-// Conversion From int to fx
-fx_s32_31 int_to_fx(int n) {
-	return n * sf_31;
+double toDouble(fixed a) {
+	return a / YY;
+} 
+
+fixed fx_mul(fixed a, fixed b) {
+	float fa, fb, fc;
+	fa = toDouble(a);
+	fb = toDouble(b);
+	fc = fa * fb;
+	return fromDouble(fc);
 }
 
 int main() {
+	float fa, fb, fc;
+	scanf("%f %f", &fa, &fb);
 	fixed a, b, c;
-	//a = fromFloat(10.5f);
-	//b = fromFloat(0.244f);
-	printf("%f %lld \n", 10.5f, a);
-	printf("%f %lld \n", 0.244f, b);
-	//printf("%lld %f \n", fx_mul(a, b), toFloat(fx_mul(a, b)));
+	a = fromDouble(fa);
+	b = fromDouble(fb);
+	c = fx_mul(a, b);
+	fc = toDouble(c);
+	
+	printf("double : %f fixed : %lld toDouble : %f\n", fa, a, toDouble(a));
+	printf("double : %f fixed : %lld toDouble : %f\n", fb, b, toDouble(b));
+	printf("fx_mul : %lld toDouble : %f\n", c, fc);
+	printf("double * double : %f\n", fa*fb);
 }

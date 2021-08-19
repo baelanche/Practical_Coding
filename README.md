@@ -22,5 +22,7 @@ Baegyu Jung / 201923678
 * permission
 * C compile and execution
 ## [Lab06](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab06)
+* .rc
+* C preprocessor
 ## [Lab07](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab07)
 * FX_S32_31.c
