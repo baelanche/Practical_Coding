@@ -29,3 +29,9 @@ Baegyu Jung / 201923678
 ## [Lab08](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab08)
 * macro
 * debug
+## [Lab09](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab09)
+* compile
+## [Lab10](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab10)
+## [Lab11](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab11)
+## [Lab12](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab12)
+## [Lab13](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab13)
