@@ -1,5 +1,5 @@
-OBJS = fx_main.o fx_test.o fx_s1516.o
-SRCS = fx_main.c fx_test.c fx_s1516.c
+OBJS = fx_main.o fx_test.o fx_s32_31.o
+SRCS = fx_main.c fx_test.c fx_s32_31.c
 CCFLAGS = -g -pg -Wall -pthread
 
 fx_main: $(OBJS)
@@ -32,6 +32,5 @@ fx_main.o: fx_main.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h fx_s1516.h fx_test.h
-fx_test.o: fx_test.c /usr/include/stdc-predef.h fx_s1516.h
-fx_s1516.o: fx_s1516.c /usr/include/stdc-predef.h
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h fx_s32_31.h fx_test.h
+fx_s32_31.o: fx_s32_31.c /usr/include/stdc-predef.h fx_s32_31.h
