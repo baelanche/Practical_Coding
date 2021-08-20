@@ -40,3 +40,4 @@ Baegyu Jung / 201923678
 ## [Lab12](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab12)
 * Software Testing
 ## [Lab13](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab13)
+* FX_3231 Testing
