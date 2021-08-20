@@ -26,3 +26,6 @@ Baegyu Jung / 201923678
 * C preprocessor
 ## [Lab07](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab07)
 * FX_S32_31.c
+## [Lab08](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab08)
+* macro
+* debug
