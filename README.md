@@ -38,4 +38,5 @@ Baegyu Jung / 201923678
 * thread
 * function
 ## [Lab12](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab12)
+* Software Testing
 ## [Lab13](https://git.ajou.ac.kr/baegyu3/practical_c/-/tree/master/lab13)
