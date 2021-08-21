@@ -10,3 +10,12 @@
 * define macro
 * conditional compilation
 * line control
+
+```
+#if [int]
+#ifdef [var]
+#elif [var]
+#else
+#endif
+```
+if 문을 열면 반드시 endif 로 닫아주어야 한다
