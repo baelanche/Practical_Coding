@@ -7,6 +7,8 @@
 
 ### Flat profile
 * 함수 별 자원을 출력해준다
+
+![flat](./fx3231.png)
 ```
 %time : 함수의 CPU사용률
 cumulative seconds : 실행 시간
