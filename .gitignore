@@ -4,6 +4,7 @@
 # etc
 *_exam
 ajou_fx_03
+*.result
 
 # Compiled Object files
 **/.DS_Store
